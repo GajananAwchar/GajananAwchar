@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Gajanan Test Automation Suite">
+<parameter name="browser" value="opera"/>
+<test name="BrowserLaunch Test">
+<parameter name="browser" value="chrome"/>
+<parameter name="url" value="https://opensource-demo.orangehrmlive.com/"/>
+<parameter name="orangeHrmExpTitle" value="OrangeHRM"/>
+<parameter name="username" value="Admin"/>
+<parameter name="password" value="admin123"/>
+    <classes>
+ 	<class name="configProperitiesPractice.LoginTest"/>
+    </classes>
+  </test> 
+</suite> 
